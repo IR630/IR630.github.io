@@ -1,1 +1,8 @@
 site_name: Сайт от 14.02
+
+nav:
+    - Home: index.md
+    - About: about.md
+
+theme:
+    name: readthedocs
