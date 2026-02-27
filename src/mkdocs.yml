@@ -1,8 +1,41 @@
-site_name: Сайт от 14.02
-
-nav:
-    - Home: index.md
-    - About: about.md
+site_name: IR6's Portfolio
+site_description: Portfolio of ML enthusiast and developer
+site_author: Me
+site_url: https://IR630.github.io
+docs_dir: docs 
 
 theme:
-    name: readthedocs
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  
+  features:
+    - navigation.instant
+    - navigation.top
+    - search.suggest
+    - search.highlight
+
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - admonition
+
+nav:
+  - Home: index.md
+  - About: about.md
+  - Projects: projects.md
+  - Contact: contact.md

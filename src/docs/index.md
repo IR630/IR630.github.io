@@ -1,19 +1,16 @@
-# Welcome to MkDocs
+# Привет! 👋
 
-Привет?
+Я **IR6** — студент, изучаю Machine Learning и программирование.
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+## Что я делаю:
+- 🐍 Python разработка
+- 🤖 Machine Learning
+- 🐧 Linux (Manjaro GNOME)
+- 📊 Data Science
 
-## Commands
+## Мои интересы:
+- Математика
+- Python
+- Настольный теннис
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+[Смотри мои проекты](projects.md)
