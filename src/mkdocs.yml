@@ -1,41 +1,48 @@
-site_name: IR6's Portfolio
-site_description: Portfolio of ML enthusiast and developer
-site_author: Me
+site_name: Портфолио Лабораторных Работ IR6
+site_description: Отчеты по лабораторным работам курса программирования на Python
+site_author: IR6
 site_url: https://IR630.github.io
-docs_dir: docs 
+docs_dir: docs
 
 theme:
   name: material
+  logo: assets/begemot.png
+  favicon: assets/begemot.png
+  language: ru
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: indigo
-      accent: indigo
+      primary: deep purple
+      accent: deep purple
       toggle:
         icon: material/brightness-7
-        name: Switch to dark mode
-
+        name: Перейти в темный режим
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: indigo
-      accent: indigo
+      primary: deep purple
+      accent: deep purple
       toggle:
         icon: material/brightness-4
-        name: Switch to light mode
-  
+        name: Перейти в светлый режим
+
   features:
-    - navigation.instant
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
     - navigation.top
+    - navigation.tracking
+    - toc.follow
+    - content.code.copy
+    - content.code.annotate
     - search.suggest
     - search.highlight
-
-markdown_extensions:
-  - pymdownx.highlight
-  - pymdownx.superfences
-  - admonition
+    - search.share
 
 nav:
-  - Home: index.md
-  - About: about.md
-  - Projects: projects.md
-  - Contact: contact.md
+  - Главная: index.md
+  - Об авторе: about.md
+  - Информация о курсе: course.md
+  - Лабораторные работы:
+      - Лабораторная №1: LR-1.md
+      - Лабораторная №2: LR-2.md

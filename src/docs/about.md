@@ -1,7 +1,7 @@
 # Обо мне
 
 ## Образование
-🎓 Университет ИТМО -- ML-engineer
+🎓 Университет ИТМО -- future ML-engineer
 ## Навыки
 - **Языки:** Python, C++, JS, PHP, SQL
 - **ML:** pandas, numpy, matplotlib + seaborn, tensorflow
