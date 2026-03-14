@@ -1,0 +1,12 @@
+- name: Build site
+        run: |
+          mkdocs build -f src/mkdocs.yml -d site
+
+      - name: Publish to release branch
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./site
+          publish_branch: release
+          commit_message: "feat: автоматическое обновление сайта"
+          force_orphan: true
