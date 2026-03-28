@@ -23,7 +23,7 @@ jobs:
 
       - name: Build site
         run: |
-          mkdocs build -f src/mkdocs.yml -d site
+          mkdocs build -f src/mkdocs.yml -d ../site
 
       - name: Publish to release branch
         uses: peaceiris/actions-gh-pages@v3
