@@ -10,4 +10,4 @@
 ## Хобби
 - Сон
 - English
-- Music
+- Music (Музыка)
