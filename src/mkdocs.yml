@@ -1,4 +1,4 @@
-site_name: Портфолио Лабораторных Работ IR6
+site_name: Портфолио IR6
 site_description: Отчеты по лабораторным работам курса программирования на Python
 site_author: IR6
 site_url: https://IR630.github.io
@@ -12,19 +12,21 @@ theme:
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: deep purple
-      accent: deep purple
+      primary: white
+      accent: blue
       toggle:
-        icon: material/brightness-7
-        name: Перейти в темный режим
+        icon: material/weather-night
+        name: Включить темную тему
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: deep purple
-      accent: deep purple
+      primary: black
+      accent: blue
       toggle:
-        icon: material/brightness-4
-        name: Перейти в светлый режим
-
+        icon: material/weather-sunny
+        name: Включить светлую тему
+  font:
+    text: Outfit
+    code: Fira Code
   features:
     - navigation.tabs
     - navigation.sections
@@ -39,12 +41,26 @@ theme:
     - search.highlight
     - search.share
 
+extra_css:
+  - stylesheets/custom.css
+
 nav:
   - Главная: index.md
   - Об авторе: about.md
   - Информация о курсе: course.md
-  - Лабораторные работы:
+  - Семестр 1:
+      - Лабораторные работы 1-10: sem1.md
+  - Семестр 2 (Лабораторные работы):
       - Лабораторная №1: LR-1.md
       - Лабораторная №2: LR-2.md
       - Лабораторная №4: LR-4.md
       - Лабораторная №5: LR-5.md
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
+  - md_in_html
