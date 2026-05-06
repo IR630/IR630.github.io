@@ -25,3 +25,4 @@
 
 ### Ссылки
 * [Jupyter-ноутбук (Google Colab)](https://colab.research.google.com/drive/1zPXuxDVpRwe1SIPCQEl9Oi217-WQVQUX?usp=sharing)
+* [Скачать .ipynb](LR-5/lab5.ipynb)
