@@ -57,6 +57,7 @@ nav:
       - Лабораторная №5: LR-5.md
       - Лабораторная №6: LR-6.md
       - Лабораторная №7: LR-7.md
+      - Лабораторная №8: LR-8.md
 markdown_extensions:
   - admonition
   - pymdownx.details
