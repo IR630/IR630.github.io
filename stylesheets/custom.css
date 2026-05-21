@@ -1,0 +1,79 @@
+/* Минималистичные улучшения формы, без жесткой привязки к цветам (чтобы темы работали корректно) */
+
+/* Область контента (Центральная карточка) */
+.md-content__inner {
+  border-radius: 12px;
+  padding: 40px !important;
+  margin-top: 20px !important;
+  margin-bottom: 40px !important;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  background-color: var(--md-default-bg-color);
+  border: 1px solid var(--md-default-fg-color--lightest);
+}
+
+/* Заголовки */
+h1, h2, h3 {
+  font-weight: 700 !important;
+  letter-spacing: -0.5px;
+}
+
+h1 {
+  font-size: 2.2em !important;
+  margin-bottom: 30px !important;
+  border-bottom: 2px solid var(--md-default-fg-color--lightest);
+  padding-bottom: 10px;
+}
+
+/* Ссылки */
+.md-typeset a {
+  text-decoration: none !important;
+  transition: opacity 0.2s ease !important;
+  border-bottom: 1px solid transparent !important;
+}
+
+.md-typeset a:hover {
+  opacity: 0.8;
+  border-bottom-color: currentColor !important;
+}
+
+/* Боковая панель навигации */
+.md-nav__item .md-nav__link--active {
+  font-weight: 600;
+}
+
+/* Блоки цитат (Вместо Admonitions) */
+.md-typeset blockquote {
+  border-left: 4px solid var(--md-primary-fg-color) !important;
+  border-radius: 0 8px 8px 0;
+  padding: 16px 20px !important;
+  font-style: normal !important;
+  background-color: var(--md-default-fg-color--lightest);
+}
+
+/* Блоки кода */
+.md-typeset pre {
+  border-radius: 8px !important;
+  border: 1px solid var(--md-default-fg-color--lightest);
+}
+
+/* Скроллбар (минималистичный) */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--md-default-fg-color--light);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--md-default-fg-color);
+}
+
+/* Фикс для навигации */
+.md-nav__title {
+  white-space: normal !important;
+  line-height: 1.3 !important;
+  padding-top: 10px !important;
+}
